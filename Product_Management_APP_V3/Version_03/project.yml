@@ -1,0 +1,29 @@
+
+---
+
+### `project.yml`
+```yaml
+project:
+  name: FastAPI Product Management Web App
+  description: Full-stack CRUD app using FastAPI (backend) and JS (frontend)
+  version: 1.0.0
+  author: Faiz Ur Rehman Ashrafi
+  license: SMIT
+  backend:
+    framework: FastAPI
+    language: Python
+    orm: SQLAlchemy
+    database: SQLite
+  frontend:
+    tech: HTML, CSS, JavaScript
+    package_manager: npm
+  setup:
+    backend:
+      - python -m venv myenv
+      - myenv\Scripts\activate
+      - pip install -r requirements.txt
+      - uvicorn main:app --reload
+    frontend:
+      - cd frontend
+      - npm install
+      - npm start

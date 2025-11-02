@@ -1,0 +1,22 @@
+Project: FastAPI Product Management Web App
+-------------------------------------------
+Backend Status: Running on http://127.0.0.1:8000
+Frontend Status: npm start successful (serving on http://localhost:3000)
+
+Database: SQLite (product.db)
+Tables: product
+
+APIs Available:
+1. GET /products
+2. GET /products/{id}
+3. POST /products
+4. PUT /products/{id}
+5. DELETE /products/{id}
+
+Swagger Docs: http://127.0.0.1:8000/docs
+Redoc Docs: http://127.0.0.1:8000/redoc
+
+Developer: Faiz Ur Rehman Ashrafi
+GitHub: https://github.com/faiz0304
+-------------------------------------------
+Everything is working perfectly
