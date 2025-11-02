@@ -21,6 +21,7 @@ A simple full-stack web application for managing products using **FastAPI** (bac
 **Frontend:**
 - HTML / CSS / JavaScript  
 - Node.js & npm for package management and build
+- Need npm for running frontend (Install npm in global or frontend path)
 
 ---
 
@@ -100,6 +101,7 @@ Run the frontend:
 ## Developer Info
 
 Author: Faiz Ur Rehman Ashrafi
-Role: Student – Electronics Engineering Technology
+Role: Student – Agentic AI
 GitHub: faiz0304
+
 
