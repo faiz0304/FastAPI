@@ -1,0 +1,28 @@
+
+---
+
+## **project.yml**
+
+```yaml
+name: FastAPI Product Management
+version: 1.0.0
+description: A FastAPI CRUD app with PostgreSQL for managing product data.
+author: Faiz Ur Rehman Ashrafi
+license: MIT
+dependencies:
+  - fastapi==0.120.4
+  - uvicorn==0.38.0
+  - SQLAlchemy==2.0.44
+  - psycopg2==2.9.11
+  - pydantic==2.12.3
+  - starlette==0.49.1
+database:
+  type: postgresql
+  host: localhost
+  port: 5432
+  name: fastapi_todo
+  user: postgres
+  password: 123
+run:
+  command: uvicorn main:app --reload
+  url: http://127.0.0.1:8000
